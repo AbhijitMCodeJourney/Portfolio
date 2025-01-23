@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"></div>
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()" ></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav><br><br><br><br>
+            <div class="header-text">
+                <h1>Java Full Stack Developer</h1><br><br>
+                <h1>Hi,I'm <br><span> Abhijit Rajendra Mali</span> <br> from <span> Solapur.</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/WhatsApp Image 2024-08-22 at 15.47.00_8ae0f973.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> I am <span style="color: rgb(255, 176, 127);">" Full Stack Developer "</span> with a passion for building beautiful and user-friendly Websites.
+                            I have a strong understanding of <span style="color: rgb(255, 176, 127);">Front-End, Back-end Development</span> and <span style="color: rgb(255, 176, 127);;">Database</span>
+                         ,and I am exited to put my skills to use in professional setting. 
+                            I am Quick learner and Team player,and I am confident that i can be a valuable asset to any web Development Team</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick=" opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick=" opentab('Experiance')">Experiance</p>
+                        <p class="tab-links" onclick=" opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="Skills">
+                         <ul >
+                            <li style="font-size: large; list-style: square;"><span style="color: rgb(30, 210, 195);">Front-End</span></li>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Angular</li>
+                            </ul>
+
+                            <ul >
+                                <li style="font-size: large; list-style: square;"><span style="color: rgb(30, 210, 195);">Back-End</span></li>
+                                <ul>
+                                    <li>C/C++</li>
+                                    <li>Java</li>
+                                    <li>Spring</li>
+                                    <li>Spring Boot</li>
+                                    <li>Hibernate</li>
+                                    <li>JSP</li>
+                                    <li>JDBC</li>
+                                    <li>Servlet</li>
+                                </ul>
+
+                                <ul >
+                                    <li style="font-size: large; list-style: square;"><span style="color: rgb(30, 210, 195);">DataBase</span></li>
+                                    <ul>
+                                        <li>SQL</li>
+                                        
+                                    </ul>
+                        
+                             </ul> 
+                    </div>
+                    <div class="tab-contents" id="Experiance">
+                        <ul>
+                            <li><span>Jan-2024 To Oct-2024</span><br> Intern at Java Full Stack Developer</li>    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2024</span><br> B.Tech From N.K.Orchid College Of Engineering And Technology,Solapur</li>
+                            <li><span>2019-2020</span><br> H.S.C From S.V.C.S. Junior College,Solapur</li>
+                            <li><span>2017-2018</span><br> S.S.C From S.V.C.S.High School And Junior College,Solapur</li>    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!--------------------------Services-------------->
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fas fa-code"></i>
+                    <h2>Full Stack Developer Design</h2>
+                    <p>I am a passionate and skilled Full Stack Developer with a strong foundation in designing and developing dynamic, 
+                        user-friendly web applications. Leveraging my expertise in front-end and back-end technologies,
+                         I create seamless and efficient solutions tailored to user needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div> 
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Java Developer</h2>
+                    <p>I am a dedicated and detail-oriented Java Developer with a strong foundation in
+                         object-oriented programming and robust application development.
+                         I specialize in creating scalable, efficient, and secure Java-based solutions to meet diverse business needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div> 
+                    <i class="fab fa-app-store"></i>
+                    <h2>Softwear Engineering</h2>
+                    <p>I am a motivated and innovative Software Engineer with a passion for designing, developing, and deploying efficient,
+                         scalable, and user-centric software solutions. I excel at problem-solving, 
+                        collaborating with cross-functional teams, and continuously upgrading my technical skills to stay aligned with the latest industry trends.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------------------------Portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/financial.jpg" height="250px"alt="">
+                    <div class="layer"><br>
+                        <h3 style="color: darkorange;">Finanance Management System</h3><br>
+                        <p>The Finance Management System website, built with HTML, CSS, JavaScript, and SQL, helps users efficiently manage their finances. It offers features for tracking health insurance, managing investment portfolios, and predicting stock trends. The site uses HTML for structure, CSS for styling, JavaScript for interactivity, and SQL for secure data storage, enabling users to view summaries, set budgets, and generate reports for enhanced financial management.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/Employee-Management-System-add-emp-1024x718.png" height="250px">
+                    <div class="layer"><br>
+                        <h3 style="color: darkorange;">Employee Management System</h3><br>
+                        <p>The Employee Management System (EMS) uses SQL to manage employee data efficiently. It centralizes personal details, job roles, salaries, attendance, and leave records. Features include updating records, calculating salaries, managing leave, and generating reports, which streamline HR tasks, enhance accuracy, and ensure secure access to information.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/amazone_clone.png" height="250px" alt="">
+                    <div class="layer"><br>
+                        <h3 style="color: darkorange;">Amazone clone</h3><br>
+                        <p>Amazon’s core e-commerce features using HTML, CSS, JavaScript, and SQL. It includes user account management, product listings, a shopping cart, and checkout process. Admin functions manage inventory and orders, providing a comprehensive platform for demonstrating web development skills in both front-end and back-end.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------------COntact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhijitmali015@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8956681012</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin" ></i></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>    
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>CopyRight © ABHI. Made With <i class="fa-solid fa-heart"></i> By Abhijit Rajendra Mali</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZpZzvphujvC0N5pXFdklpXRxGwyj1lM6RLODgxnukx5U18CfBrLYo7virUP7e6mEy8Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Mwssage Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
